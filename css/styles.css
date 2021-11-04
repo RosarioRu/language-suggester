@@ -11,3 +11,7 @@ body {
   margin-bottom: 25px;
 }
 
+.btn {
+  border: 2px solid black;
+  margin-left: 8px;
+}
