@@ -1,9 +1,13 @@
 $(document).ready(function() {
   $("form#language-suggester").submit(function(event) {
-    const color =$("input#color").val();
+    const userHeight=$("input#height").val();
+    const userColor =$("input#color").val();
+    const userAnimal=$("input#animal").val();
+    const userAmPm=$("input#am-pm").val();
+    const userFood = $("input#food").val();
 
     let result;
-    if (color === "red") {
+    if (userColor === "red" || userColor==="Red" || userColor==="red." || userColor==="Red." ) {
       result="Ruby";
     }
 
