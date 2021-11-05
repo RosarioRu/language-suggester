@@ -18,12 +18,12 @@ $(document).ready(function() {
       result="Ruby";
     } else if (userAnimal === "cats") {
       result = "C++";
-    }
-      else {
+    } else {
       result = "nothing!";
     }
 
     $(".results-here").text(result);
+    $(".results-here").show();
 
     event.preventDefault();
   });
