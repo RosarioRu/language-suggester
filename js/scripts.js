@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("form#language-suggester").submit(function(event) {
-    const userHeight=$("input#height").val();
+    const developmentType=$("input#dev-type").val();
     const userColor =$("input#color").val();
     const userAnimal=$("input#animal").val();
     // const userAmPm=$("input#am-pm").val();
@@ -12,8 +12,8 @@ $(document).ready(function() {
     // }
 
     let result;
-    if (userHeight === "tall") {
-      result="Python";
+    if (developmentType === "video game" || developmentType === "video games") {
+      result="C++";
     } else if (userColor === "red") {
       result="Ruby";
     } else if (userAnimal === "cats") {
