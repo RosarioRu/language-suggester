@@ -20,6 +20,7 @@
               <input id="math" class="form-control" type="text" required="required">
             </div>
           </div>
+
           <div class="col-4">
             <label for="favorite-app">Which app could you not live without?</label>
             <select class="form-group" id="favorite-app" required="required">
@@ -27,19 +28,31 @@
               <option>iOS Enlight Photo Editor</option>
               <option>SkyGuide Constellation Finder</option>
               <option>Tasker Automating App</option>
-            </select>
-              <!-- <label for="favorite-app">Which app could you not live without?</label>
-              <input id="favorite-app" class="form-control" type="text" required="required"> -->
-            
+            </select>  
           </div>
 
         </div> <!--row-->
 
-        
-        <div class="form-group">
-          <label for="development-type">Are you more interested in web or video game development?</label>
-          <input id="development-type" class="form-control" type="text" required="required">
+        <div class="form group">
+          <div class="radio">
+            <p>What sounds more interesting to you? Video Game or Web Development?</p>
+            <label>
+              <input type="radio" name="development-type" value="Web" checked>
+              Web Development
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="development-type" value="Video">
+              Video Game Development
+            </label>
+          </div>
         </div>
+
+        <!-- <div class="form-group">
+          <label for="development-type">Are you more interested in web or video game development?</label>
+          <input id="development-type" class="form-control" >
+        </div> -->
 
         <div class="form-group">
           <label for="easiest">Is starting with the easiest language very important to you?</label>
