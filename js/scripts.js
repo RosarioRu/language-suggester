@@ -3,8 +3,8 @@ $(document).ready(function() {
     const userMathematician=$("input#math").val();
     const userFavoriteApp =$("#favorite-app").val();
     const userDevType=$("input:radio[name=development-type]:checked").val();
-    const userEase=$("input#easiest").val();
-    const userFrontOrBackDev=$("input#front-or-back").val();
+    const userEase=$("#easiest").val();
+    const userFrontOrBackDev=$("#front-or-back").val();
 
     // const userAmPm=$("input#am-pm").val();
     // const userFood = $("input#food").val();
@@ -14,15 +14,15 @@ $(document).ready(function() {
     //   result="Ruby";
     // }
     let result;
-    if (userMathematician === "yes" || "Yes" || "Yes." || "yes." || "I am" || "i am" || "I am." || "i am." || "yep" || "Yep") {
+    if (userMathematician === "yes"|| userMathematician === "Yes" || userMathematician ==="Yes." || userMathematician === "yes." || userMathematician === "I am" || userMathematician === "i am" || userMathematician === "I am." || userMathematician === "i am." || userMathematician === "yep" || userMathematician === "Yep") {
       result = "Haskell";
-    } else if (userFavoriteApp === "iOS Enlight Photo Editor" || "Sky Guide Constellation Finder") {
+    } else if (userFavoriteApp === "iOS Enlight Photo Editor" || userFavoriteApp === "SkyGuide Constellation Finder") {
       result = "Swift";
-    } else if (userDevType === "Web Development") { //should this be "web"?
+    } else if (userDevType === "Video") { 
       result = "C++";
-    } else if (userEase === yes) {
+    } else if (userEase === "Yes!") {
       result= "Python";
-    } else if (userFrontOrBackDev === front) {
+    } else if (userFrontOrBackDev === "Front End") {
       result = "Javascript";
     } else {
       result = "Ruby";
