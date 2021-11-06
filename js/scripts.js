@@ -6,13 +6,6 @@ $(document).ready(function() {
     const userEase=$("input:radio[name=easiest]:checked").val();
     const userFrontOrBackDev=$("input:radio[name=front-or-back]:checked").val();
 
-    // const userAmPm=$("input#am-pm").val();
-    // const userFood = $("input#food").val();
-
-    // let result;
-    // if (userColor === "red" || userColor==="Red" || userColor==="red." || userColor==="Red." ) {
-    //   result="Ruby";
-    // }
     let result;
     if (userMathematician === "yes"|| userMathematician === "Yes" || userMathematician ==="Yes." || userMathematician === "yes." || userMathematician === "I am" || userMathematician === "i am" || userMathematician === "I am." || userMathematician === "i am." || userMathematician === "yep" || userMathematician === "Yep") {
       result = "Haskell";
@@ -34,16 +27,3 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
-
-    
-    // let result;
-    // if (developmentType === "video game" || developmentType === "video games") {
-    //   result="C++";
-    // } else if (userColor === "red") {
-    //   result="Ruby";
-    // } else if (userAnimal === "cats") {
-    //   result = "C++";
-    // } else {
-    //   result = "nothing!";
-    // }
-
