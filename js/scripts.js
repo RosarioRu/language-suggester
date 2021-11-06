@@ -3,8 +3,8 @@ $(document).ready(function() {
     const userMathematician=$("input#math").val();
     const userFavoriteApp =$("#favorite-app").val();
     const userDevType=$("input:radio[name=development-type]:checked").val();
-    const userEase=$("#easiest").val();
-    const userFrontOrBackDev=$("#front-or-back").val();
+    const userEase=$("input:radio[name=easiest]:checked").val();
+    const userFrontOrBackDev=$("input:radio[name=front-or-back]:checked").val();
 
     // const userAmPm=$("input#am-pm").val();
     // const userFood = $("input#food").val();
@@ -20,7 +20,7 @@ $(document).ready(function() {
       result = "Swift";
     } else if (userDevType === "Video") { 
       result = "C++";
-    } else if (userEase === "Yes!") {
+    } else if (userEase === "yes") {
       result= "Python";
     } else if (userFrontOrBackDev === "Front End") {
       result = "Javascript";
