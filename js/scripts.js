@@ -2,7 +2,7 @@ $(document).ready(function() {
   $("form#language-suggester").submit(function(event) {
     const userMathematician=$("input#math").val();
     const userFavoriteApp =$("#favorite-app").val();
-    const userDevType=$("input#development-type").val();
+    const userDevType=$("input:radio[name=development-type]:checked").val();
     const userEase=$("input#easiest").val();
     const userFrontOrBackDev=$("input#front-or-back").val();
 
@@ -18,7 +18,7 @@ $(document).ready(function() {
       result = "Haskell";
     } else if (userFavoriteApp === "iOS Enlight Photo Editor" || "Sky Guide Constellation Finder") {
       result = "Swift";
-    } else if (userDevType === Game Development) {
+    } else if (userDevType === "Web Development") { //should this be "web"?
       result = "C++";
     } else if (userEase === yes) {
       result= "Python";
