@@ -7,6 +7,7 @@
   <script src="js/scripts.js"></script>
   <title>Language Suggester</title>
 </head>
+
 <body>
   <div class="container">
     <h1>Programming Language Suggester</h1>
@@ -23,19 +24,19 @@
 
           <div class="col-4">
             <label for="favorite-app">Which app could you not live without?</label>
-            <select class="form-group" id="favorite-app" required="required">
+            <select class="form-control" id="favorite-app" required="required">
               <option value="">Please select an option</option>
               <option>iOS Enlight Photo Editor</option>
               <option>SkyGuide Constellation Finder</option>
               <option>Tasker Automating App</option>
-            </select>  
+            </select> 
           </div>
 
         </div> <!--row-->
 
-        <div class="form group">
+        <div class="form-group">
           <div class="radio">
-            <p>What sounds more interesting to you? Video Game or Web Development?</p>
+          <p>What sounds more interesting to you? Video Game or Web Development?</p>
             <label>
               <input type="radio" name="development-type" value="Web" checked>
               Web Development
@@ -49,36 +50,38 @@
           </div>
         </div>
 
-        <!-- <div class="form-group">
-          <label for="development-type">Are you more interested in web or video game development?</label>
-          <input id="development-type" class="form-control" >
-        </div> -->
-
         <div class="form-group">
           <label for="easiest">Is starting with the easiest language very important to you?</label>
-          <input id="easiest" class="form-control" type="text">
+          <select class="form-control" id="easiest" required="required"> 
+            <option value="">Please select an option</option>
+            <option>Yes!</option>
+            <option>No, it's not that important.</option>
+          </select>
         </div>
 
         <div class="form-group">
           <label for="front-or-back">Would you prefer front or backend development?</label>
-          <input id="front-or-back" class="form-control" type="text">
+          <select class="form-control" id="front-or-back" required="required">
+            <option value="">Please select an option</option>
+            <option>Front End</option>
+            <option>Back End</option>
+          </select>
         </div>
 
-        
-        
-        <button type="submit" class="btn">Tell me my language!</button>
-        
+        <button type="submit" class="btn">Tell me my language!</button> 
+
       </form>
     
     <div class="results-here"> 
-     <p>is the language for you!</p>
+    <p>is the language for you!</p>
     </div>
 
     <div class="clear">
-      <input type="reset" value="reset form">
+    <input type="reset" value="reset form">
     </div>
 
   </div> <!---container-->
 
 </body>
+
 </html>
