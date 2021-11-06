@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("form#language-suggester").submit(function(event) {
     const userMathematician=$("input#math").val();
-    const userFavoriteApp =$("input#favorite-app").val();
+    const userFavoriteApp =$("#favorite-app").val();
     const userDevType=$("input#development-type").val();
     const userEase=$("input#easiest").val();
     const userFrontOrBackDev=$("input#front-or-back").val();
@@ -16,7 +16,7 @@ $(document).ready(function() {
     let result;
     if (userMathematician === "yes" || "Yes" || "Yes." || "yes." || "I am" || "i am" || "I am." || "i am." || "yep" || "Yep") {
       result = "Haskell";
-    } else if (userFavoriteApp === iOS Enlight Photo Editor || Sky Guide Constellation Finder) {
+    } else if (userFavoriteApp === "iOS Enlight Photo Editor" || "Sky Guide Constellation Finder") {
       result = "Swift";
     } else if (userDevType === Game Development) {
       result = "C++";
@@ -27,6 +27,13 @@ $(document).ready(function() {
     } else {
       result = "Ruby";
     }
+
+    $(".results-here").text(result);
+    $(".results-here").show();
+
+    event.preventDefault();
+  });
+});
 
     
     // let result;
@@ -40,9 +47,3 @@ $(document).ready(function() {
     //   result = "nothing!";
     // }
 
-    $(".results-here").text(result);
-    $(".results-here").show();
-
-    event.preventDefault();
-  });
-});
