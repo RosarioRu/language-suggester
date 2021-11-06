@@ -51,25 +51,39 @@
         </div>
 
         <div class="form-group">
-          <label for="easiest">Is starting with the easiest language very important to you?</label>
-          <select class="form-control" id="easiest" required="required"> 
-            <option value="">Please select an option</option>
-            <option>Yes!</option>
-            <option>No, it's not that important.</option>
-          </select>
+          <div class="radio">
+          <p>Is starting with the easiest language very important to you?</p>
+            <label>
+              <input type="radio" name="easiest" value="no" checked>
+              No, it's not that important
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="easiest" value="yes">
+              Yes!
+            </label>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <div class="radio">
+          <p>Would you prefer front or backend development?</p>
+            <label>
+              <input type="radio" name="front-or-back" value="Front End" checked>
+              Front End 
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="front-or-back" value="Back End">
+              Back End 
+            </label>
+          </div>
         </div>
 
-        <div class="form-group">
-          <label for="front-or-back">Would you prefer front or backend development?</label>
-          <select class="form-control" id="front-or-back" required="required">
-            <option value="">Please select an option</option>
-            <option>Front End</option>
-            <option>Back End</option>
-          </select>
-        </div>
 
         <div class="row">
-          
           <div class="col-4">
             <button type="submit" class="btn">Tell me my language!</button> 
           </div>
