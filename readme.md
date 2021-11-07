@@ -20,15 +20,15 @@ _The Programming Language Suggester site asks users to answer a five-question su
 
 ## Setup/Installation Requirements
 
-*_Clone repository from Github to save a copy on own device/computer_
+* _Clone repository from Github to save a copy on own device/computer_
 
-*_Using GUI or terminal, open cloned project directory (named Portfolio) to view files/folders_
+* _Using GUI or terminal, open cloned project directory (named language-suggester) to view files/folders_
 
-*_Using GUI or terminal, open index.html file to view project locally_
+* _Using GUI or terminal, open index.html file to view project locally_
 
-*_Images, stylesheet and readme can also be opened from project home directory ("Portfolio") if desired_
+* _Stylesheet, scripts, and readme can also be opened from project home directory ("language-suggester") if desired_
 
-* _To access the webpage, click here: https://rosarioru.github.io/portfolio/_
+*  _To access the webpage, click here: https://rosarioru.github.io/language-suggester/_
 
 ## Known Bugs
 
@@ -38,4 +38,4 @@ _The Programming Language Suggester site asks users to answer a five-question su
 
 MIT License
 
-Copyright (c) _Oct. 2021_ _Rosario Ruvalcaba H_
+Copyright (c) _Nov. 2021_ _Rosario Ruvalcaba H_
