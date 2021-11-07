@@ -21,8 +21,8 @@ $(document).ready(function() {
       result = "Ruby";
     }
 
-    $(".results-here").text(result);
-    $(".results-here").show();
+    $("#result").text(result);
+    $("#results-here").show();
 
     event.preventDefault();
   });
