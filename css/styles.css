@@ -8,8 +8,8 @@ body {
 }
 
 .container h1 {
-  margin-top: 40px;
-  margin-bottom: 8px;
+  margin-top: 20px;
+  margin-bottom: 3px;
 }
 
 .container p {
@@ -34,7 +34,7 @@ body {
 
 #results-here {
   display: none;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 
