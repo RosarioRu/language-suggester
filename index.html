@@ -11,7 +11,7 @@
 <body>
   <div class="container">
     <h1>Programming Language Suggester</h1>
-    <p>Welcome to the Programming Language Suggester! Please submit the information below. We will analyze your answers and let you know which programming language you should learn!</p>
+    <p id="description">Welcome to the Programming Language Suggester! Please submit the information below. We will analyze your answers and let you know which programming language you should learn!</p>
       
       <form id="language-suggester">
         <div class="row">
@@ -82,16 +82,16 @@
             <button type="submit" class="btn">Tell me my language!</button> 
           </div>
           <div class="col-4">
-            <div class="clear">
               <input type="reset" value="reset form" class="btn">
-            </div>
           </div>
         </div>
+
       </form>
     
-    <div class="results-here"> 
-    <p>is the language for you!</p>
-    </div>
+    <div id="results-here">
+      <p>After careful analysis it is clear that <span id="result"></span> is the language for you!</p>
+    </div> 
+    
 
   </div> 
 </body>
